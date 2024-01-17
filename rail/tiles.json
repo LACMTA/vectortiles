@@ -1,0 +1,13 @@
+{
+    "tilejson": "2.2.0",
+    "name": "rail",
+    "description": "Rail routes in Los Angeles",
+    "version": "1.0.0",
+    "attribution": "Data provided by Los Angeles County Metropolitan Transportation Authority",
+    "tiles": [
+      "https://lacmta.github.io/vectortiles/rail/{z}/{x}/{y}.pbf"
+    ],
+    "minzoom": 0,
+    "maxzoom": 14,
+    "bounds": [-118.6682, 33.7037, -118.1553, 34.3373]
+  }
