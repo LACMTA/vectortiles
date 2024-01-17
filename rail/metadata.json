@@ -1,0 +1,14 @@
+{
+    "name": "../vectortiles/output.mbtiles",
+    "description": "../vectortiles/output.mbtiles",
+    "version": "2",
+    "minzoom": "1",
+    "maxzoom": "16",
+    "center": "-118.237610,34.050384,16",
+    "bounds": "-118.491688,33.767995,-117.889900,34.170848",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v1.36.0",
+    "generator_options": "tippecanoe -o ../vectortiles/output.mbtiles -Z1 -z16 -pk -pf ../vectortiles/flattened_rail.geojson",
+    "json": "{\"vector_layers\": [ { \"id\": \"flattened_rail\", \"description\": \"\", \"minzoom\": 1, \"maxzoom\": 16, \"fields\": {\"agency_id\": \"String\", \"shape_id\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"flattened_rail\",\"count\": 12,\"geometry\": \"LineString\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"agency_id\",\"count\": 1,\"type\": \"string\",\"values\": [\"LACMTA_Rail\"]},{\"attribute\": \"shape_id\",\"count\": 12,\"type\": \"string\",\"values\": [\"801NB_RC_221121\",\"801SB_RC_221121\",\"802EB_190513\",\"802WB_190513\",\"803EB_120215\",\"803WB_120215\",\"804EB_RC_221121\",\"804WB_RC_221121\",\"805EB_190513\",\"805WB_190513\",\"807NB_220810\",\"807SB_220810\"]}]}]}}"
+}
